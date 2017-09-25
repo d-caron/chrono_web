@@ -1,4 +1,6 @@
 "use strict";
 
 var chrono = new Chrono();
-chrono.run();
+setInterval(function() {
+  chrono.incrementTime();
+}, 10);
